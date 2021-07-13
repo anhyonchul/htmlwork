@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레드향 주문하기</title>
+    <style>
+        legend{
+            font-size: 1.5em;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            line-height: 3;
+        }
+        p{
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>레드향 주문하기</h1>
+    <form action="" method="GET">
+        <fieldset>
+            <legend><b>상품 선택</b></legend>
+            <p>주문할 상품을 선택해 주세요</p>
+            <ul>
+                <li>
+                    <label><input type="checkbox" value="S3">선물용 3Kg</label>
+                    <input type="number" value="1" min="1" max="5">개 (최대 5개)
+                </li>
+                <li>
+                    <label><input type="checkbox" value="S5">선물용 5Kg</label>
+                    <input type="number" value="1" min="1" max="5">개 (최대 5개)
+                </li>
+                <li>
+                    <label><input type="checkbox" value="F3">가정용 3Kg</label>
+                    <input type="range" value="1" min="1" max="5">개 (최대 5개)
+                </li>
+                <li>
+                    <label><input type="checkbox" value="F5">가정용 5Kg</label>
+                    <input type="range" value="1" min="1" max="5">개 (최대 5개)
+                </li>
+            </ul>
+            <p>포장 선택</p>
+            <ul>
+                <li><label><input type="radio" name="gift" value="YES">선물포장</label></li>
+                <li><label><input type="radio" name="gift" value="NO">선물포장안함</label></li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>

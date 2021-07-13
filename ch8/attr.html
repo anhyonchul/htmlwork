@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성 선택자</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        ul li{
+            display: inline;
+            padding: 10px 20px;
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 5px 20px;
+            color: #000;
+        }
+        ul li a[href]{ /*속성이 href에 들어감, 속성선택자*/
+            background: yellow;
+        }
+        ul li a:hover, a:focus{ /*가상선택자 : 웹 요소를 클릭(active)하거나 마우스 커서를 올려놓거나(hover) tap키(focus) 등 특정 동작을 할때 사용함*/
+            color: red;
+        }
+        ul li a:active{ 
+            background-color: rosybrown;
+        } 
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a>메인 메뉴</a></li>
+        <li><a href="#">메뉴1</a></li>
+        <li><a href="#">메뉴2</a></li>
+        <li><a href="#">메뉴3</a></li>
+        <li><a href="#">메뉴4</a></li>
+    </ul>
+</body>
+</html>
