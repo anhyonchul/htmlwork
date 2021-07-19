@@ -1,21 +1,20 @@
-#cheak{
-    border: 1px solid black;
-}
 #container{
     width: 640px;
     margin: 0 auto;
-    border: 1px solid black;
+}
+#check{
+    border: 1px solid #ccc;
 }
 h1{
-    background-color: black;
-    color: #efff;
-    font-size: 1em;
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;  /*16px*/
     padding: 10px;
     margin: 0;
 }
 h2{
+    color: #ff0000;
     font-size: 1.5em;
-    color: red;
     text-align: center;
 }
 p{
@@ -25,8 +24,8 @@ p{
     text-align: center;
 }
 .accent{
-    color: blue;
+    color: #0000ff;
 }
-.smalltext{
+.smallText{
     font-size: 0.7em;
 }
